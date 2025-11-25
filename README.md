@@ -1,22 +1,31 @@
-# Task 2 – Change Detection Algorithm
+Image Change Detection System
 
-This script detects differences between BEFORE (X.jpg) and AFTER (X~2.jpg) images.
-Missing or changed objects in the AFTER image are highlighted with bounding boxes.
+VisionDelta is a Python-based image processing tool that automatically detects changes between before and after images. It highlights the changed regions using bounding boxes and exports the annotated results as new images.
 
-## How to run
+This project is useful for:
 
-1. Install dependencies:
-   pip install -r requirements.txt
+Surveillance
 
-2. Place input images inside /input:
-   - A.jpg
-   - A~2.jpg
-   - B.jpg
-   - B~2.jpg
+Traffic monitoring
 
-3. Run the script:
-   python change_detection.py
+Construction progress tracking
 
-4. Output images with bounding boxes are saved in /output:
-   - A_diff.jpg
-   - B_diff.jpg
+Remote sensing
+
+Scene comparison
+
+Industrial inspection
+
+🚀 Features
+
+🔍 Automatic detection of differences between image pairs
+
+🖼️ Supports before (X.jpg) and after (X~2.jpg) format
+
+🟥 Highlights all detected changes with bounding boxes
+
+💾 Saves output as X~3.jpg
+
+📁 Batch processing of multiple images
+
+🧼 Noise reduction + area filtering
